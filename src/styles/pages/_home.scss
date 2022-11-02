@@ -1,0 +1,24 @@
+.home {
+  .main {
+    display: flex;
+    flex-direction: row;
+    gap: 35%;
+    .link {
+      display: flex;
+      align-items: center;
+      gap: 5%;
+
+      button {
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: $font-weight-2;
+        width: 200px;
+        height: 50px;
+        color: $color-2;
+        background-color: $color-1;
+        border-radius: 5px;
+        border: solid 5px $color-6;
+      }
+    }
+  }
+}

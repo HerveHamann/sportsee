@@ -1,0 +1,26 @@
+.line-graph {
+  width: 258px;
+  height: 263px;
+  border-radius: 5px;
+  background: linear-gradient(to right, $color-6 0%, $color-6 70%, $color-7 70%, $color-7 100%);
+  .legend {
+    color: $color-2;
+    opacity: 0.5;
+    width: 147px;
+    height: 48px;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 29px 0 0 34px;
+  }
+  .custom-tooltip {
+    background-color: $color-2;
+    width: 39px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .label {
+    font-size: 8px;
+  }
+}

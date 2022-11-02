@@ -1,0 +1,46 @@
+.home {
+  .main-container {
+    display: flex;
+    column-gap: 109px;
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      .title-container {
+        margin: 68px 0 77px 0;
+        h1 {
+          font-size: 48px;
+          font-weight: $font-weight-1;
+          margin-bottom: 41px;
+          span {
+            color: $color-6;
+          }
+        }
+        p {
+          font-size: 18px;
+          font-weight: $font-weight-0;
+        }
+      }
+      .info-container {
+        display: flex;
+        flex-direction: row;
+        column-gap: 31px;
+
+        .side-icon-container {
+          display: flex;
+          flex-direction: column;
+          gap: 39px;
+        }
+        .graf-container {
+          display: flex;
+          flex-direction: column;
+          row-gap: 40px;
+          .sub-container {
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+          }
+        }
+      }
+    }
+  }
+}

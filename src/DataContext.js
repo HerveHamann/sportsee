@@ -28,7 +28,7 @@ export const DataProvider = ({ children }) => {
     });
 
     let userDataApi = userData.data;
-    return userDataApi ? userDataApi : userDataMocked;
+    return userDataMocked ? userDataMocked : userDataApi;
   }
 
   /**
@@ -46,7 +46,7 @@ export const DataProvider = ({ children }) => {
     });
 
     let userActivityApi = userActivity.data;
-    return userActivityApi ? userActivityApi : userActivityMocked;
+    return userActivityMocked ? userActivityMocked : userActivityApi;
   }
 
   /**
@@ -65,7 +65,7 @@ export const DataProvider = ({ children }) => {
 
     let userSessionsApi = userSessions.data;
 
-    return userSessionsApi ? userSessionsApi : userSessionsMocked;
+    return userSessionsMocked ? userSessionsMocked : userSessionsApi;
   }
 
   /**
@@ -83,7 +83,7 @@ export const DataProvider = ({ children }) => {
     });
     let userPerformanceApi = userPerformance.data;
 
-    return userPerformanceApi.data ? userPerformanceApi : userPerformanceMocked;
+    return userPerformanceMocked ? userPerformanceMocked : userPerformanceApi;
   }
 
   return (
